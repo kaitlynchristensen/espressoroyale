@@ -154,7 +154,7 @@ header .link:first-child {
 }
 
 .card_name {
-	font-family: "Bungee", sans-serif;
+	font-family: "bungee", sans-serif;
 	font-size: 30px;
 }
 
@@ -164,7 +164,7 @@ header .link:first-child {
 
 .card_phone {
 	padding-top: 5px;
-	font-family: "Bauhaus 93";
+	font-family: "bungee", sans-serif;
 	font-size: 18px;
 }
 

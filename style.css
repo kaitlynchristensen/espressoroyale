@@ -160,17 +160,17 @@ header .link:first-child {
 }
 
 .card_address {
-	padding-top: 5px;
+	padding-top: 3px;
 }
 
 .card_phone {
-	padding-top: 5px;
+	padding-top: 3px;
 	font-family: "bungee", sans-serif;
 	font-size: 15px;
 }
 
 .card_open {
-	padding-top: 5px;
+	padding-top: 3px;
 }
 
 .card_days {

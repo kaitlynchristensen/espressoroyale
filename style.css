@@ -151,11 +151,12 @@ header .link:first-child {
 .loc-card {
 	padding: 70px 70px 70px 70px;
 	font-size: 12px;
+	font-family: "Century";
 }
 
 .card_name {
 	font-family: "bungee", sans-serif;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .card_address {
@@ -165,7 +166,7 @@ header .link:first-child {
 .card_phone {
 	padding-top: 5px;
 	font-family: "bungee", sans-serif;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .card_open {
@@ -204,6 +205,7 @@ header .link:first-child {
 
 .wisconsin-loc {
 	background-image: url(images/wisconsin-loc-card.png);
+	color: white;
 }
 
 #michigan-card {
@@ -212,4 +214,5 @@ header .link:first-child {
 
 .michigan-loc {
 	background-image: url(images/michigan-loc-card.png);
+	color: #cccc99;
 }

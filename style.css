@@ -1,0 +1,215 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Book Antiqua";
+}
+
+.all-caps {
+	text-transform: uppercase;
+	font-size: 110%;
+}
+#main-container {
+	width: 100%;
+	background-image: url(images/tabletop.png);
+	background-size: 200%;
+}
+
+.column {
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+
+#col-2 {
+	display: none;
+}
+
+.page {
+	width: 100%;
+	min-height: 100%;
+	display: inline-block;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.heading {
+	color: #cc9966;
+	font-family: "Century Gothic";
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+	padding: 35px;
+}
+
+header {
+	padding: 35px 25px 0 25px;
+}
+
+header .title {
+	font-family: "Felix Titling";
+	color: white;
+	font-size: 80px;
+	padding-bottom: 5px;
+	letter-spacing: 3px;
+}
+
+header .link {
+	float: left;
+	color: #cc9966;
+	font-family: "Century Gothic";
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0 15px;
+	cursor: pointer;
+}
+
+header .link:first-child {
+	padding-left: 0;
+}
+
+.coffeecup {
+	width: 700px;
+	height: 700px;
+	background-image: url(images/coffeecup.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+#story_part1 {
+	width: 1000px;
+	height: 450px;
+	background-image: url(images/photo1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#story_part2 {
+	width: 1000px;
+	height: 450px;
+	background-image: url(images/paperplain.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: visible;
+}
+
+#toaster {
+	width: 1000px;
+	height: 600px;
+	background-image: url(images/toaster.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.oversize-img-left {
+	position: absolute;
+	right: 800px;
+}
+
+.component_text {
+	width: 500px;
+	height: 100px;
+	padding-top: 175px;
+	padding-left: 400px;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	font-size: 13px;
+}
+
+.card-container {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.card {
+	width: 350px;
+	height: 250px;
+	float: left;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.state-card {
+	cursor: pointer;
+}
+
+.loc-card {
+	padding: 70px 70px 70px 70px;
+	font-size: 12px;
+}
+
+.card_name {
+	font-family: "Bauhaus 93";
+	font-size: 30px;
+}
+
+.card_address {
+	padding-top: 5px;
+}
+
+.card_phone {
+	padding-top: 5px;
+	font-family: "Bauhaus 93";
+	font-size: 18px;
+}
+
+.card_open {
+	padding-top: 5px;
+}
+
+.card_days {
+	display: inline-block;
+	width: 4em;
+}
+
+.card_hours {
+	display: inline-block;
+}
+
+#illinois-card {
+	background-image: url(images/illinoiscard.png);
+}
+
+.illinois-loc {
+	background-image: url(images/illinois-loc-card.png);
+	color: #ffffff;
+}
+
+#minnesota-card {
+	background-image: url(images/minnesota-card.png);
+}
+
+.minnesota-loc {
+	background-image: url(images/minnesota-loc-card.png);
+}
+
+#wisconsin-card {
+	background-image: url(images/wisconsin-card.png);
+}
+
+.wisconsin-loc {
+	background-image: url(images/wisconsin-loc-card.png);
+}
+
+#michigan-card {
+	background-image: url(images/michigan-card.png);
+}
+
+.michigan-loc {
+	background-image: url(images/michigan-loc-card.png);
+}

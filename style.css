@@ -127,6 +127,21 @@ header .link:first-child {
 	background-position: right;
 }
 
+.back-to-top {
+	height: 50px;
+	width: 50px;
+	background-image: url(images/backarrow.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	float: right;
+	margin-top: -80px;
+	margin-right: 40px;
+}
+
 .oversize-img-left {
 	position: absolute;
 	right: 800px;

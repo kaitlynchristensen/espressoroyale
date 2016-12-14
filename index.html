@@ -39,8 +39,9 @@
 
 					These days, customers are a part of designing cafes, products and new directions. &#8220;We don't tell people what they will like, we listen to them,&#8221; says Marcus Goller, the company's founder.<br><br></div>
 			</div>
-		</div>
-	</div>
+			<div class="back-to-top"></div>
+		</div> <!-- end content -->
+	</div> <!-- end Our Story page -->
 	</div> <!-- end col-1 -->
 
 	<div id="col-2" class="column">
@@ -536,6 +537,11 @@
 			$(this).css('-ms-transform', 'rotate(' + toString(num) + 'deg)');
 			$(this).css('-webkit-transform', 'rotate(' + num + 'deg)');
 			$(this).css('transform', 'rotate(' + num + 'deg)');
+		});
+
+		$('.back-to-top').click(function () {
+			$('html, body').animate(
+				{ scrollTop: 0 }, {});
 		});
 
 		$('#locations-heading').click(function() {

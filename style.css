@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Felix Titling';
+  src: url('FELIXTI.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('GOTHIC.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
 body {
 	padding: 0;
 	margin: 0;

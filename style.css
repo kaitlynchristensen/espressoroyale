@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'felix-titling';
-  src: url('../felixti.ttf'); /* Safari, Android, iOS */
+  src: url('../FELIXTI.TTF'); /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: 'century-gothic';
-  src: url('../gothic.ttf'); /* Safari, Android, iOS */
+  src: url('../GOTHIC.TTF'); /* Safari, Android, iOS */
 }
 
 body {
